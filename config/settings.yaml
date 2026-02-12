@@ -1,0 +1,56 @@
+# Discord Bot Configuration
+
+# Discord Settings
+discord:
+  token: "${DISCORD_TOKEN}"
+  prefix: "!"
+  mention_prefix: true
+  case_sensitive: false
+  intents:
+    - messages
+    - guilds
+    - message_content
+    - voice_states
+
+# LLM Configuration
+llm:
+  provider: "ollama"  # ollama, openai, anthropic
+  base_url: "${LOCAL_LLM_URL:http://127.0.0.1:11434}"
+  model: "${MODEL_NAME:dolphin-llama3}"
+  temperature: 0.8
+  max_tokens: 150
+  timeout: 30
+
+# Memory Configuration
+memory:
+  type: "sqlite"  # sqlite, json, memory
+  max_conversations: 1000
+  max_message_length: 2000
+  persistence: true
+  file: "memory.db"
+
+# Voice Configuration (Optional)
+voice:
+  enabled: true
+  speech_recognition: true
+  text_to_speech: true
+  language: "en-US"
+  tts_voice: "en-US-AriaNeural"
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "bot.log"
+
+# Plugin Configuration
+plugins:
+  voice: false
+  commands: true
+  moderation: false
+
+# Development Settings
+development:
+  debug: false
+  auto_reload: false
+  test_mode: false

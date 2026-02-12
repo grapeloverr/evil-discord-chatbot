@@ -1,0 +1,24 @@
+# Development Configuration
+# Inherits from settings.yaml and overrides for development
+
+development:
+  debug: true
+  auto_reload: true
+  test_mode: true
+
+logging:
+  level: "DEBUG"
+
+# Use test models in development
+llm:
+  model: "dolphin-llama3"
+  temperature: 0.9
+  max_tokens: 100
+
+# Smaller memory for testing
+memory:
+  max_conversations: 100
+
+# Enable voice for testing if available
+voice:
+  enabled: true

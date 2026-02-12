@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  discord-bot:
+    build: .
+    container_name: discord-bot
+    restart: unless-stopped
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - BOT_ENV=${BOT_ENV:-production}
+      - LOCAL_LLM_URL=${LOCAL_LLM_URL:-http://host.docker.internal:11434}
+      - MODEL_NAME=${MODEL_NAME:-dolphin-llama3}
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./config:/app/config
+    networks:
+      - bot-network
+
+  # Optional: Ollama service (comment out if using external Ollama)
+  # ollama:
+  #   image: ollama/ollama:latest
+  #   container_name: ollama
+  #   restart: unless-stopped
+  #   ports:
+  #     - "11434:11434"
+  #   volumes:
+  #     - ollama_data:/root/.ollama
+  #   networks:
+  #     - bot-network
+
+networks:
+  bot-network:
+    driver: bridge
+
+volumes:
+  ollama_data:

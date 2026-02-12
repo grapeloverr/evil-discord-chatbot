@@ -1,0 +1,26 @@
+INFO:discord.client:logging in using static token
+INFO:src.utils.server_scraper:Scraping server: /trashcoded/
+INFO:src.utils.server_scraper:Checking 0 text channels...
+INFO:src.utils.server_scraper:Scraping complete: 0 samples generated
+INFO:src.utils.server_scraper:Exported 0 samples to scraped_training_data.json
+Initializing scraper...
+  Guild ID: 1431511744748191950
+  Output: scraped_training_data.json
+  Format: alpaca
+----------------------------------------
+
+==================================================
+SCRAPING COMPLETE
+==================================================
+
+Stats:
+  channels_processed: 0
+  total_samples: 0
+
+Total samples: 0
+  Excellent (1-1%): 0
+  Good (1-1%): 0
+  Medium (0-1%): 0
+  Low (0-0%): 0
+
+✅ Exported 0 samples to scraped_training_data.json

@@ -1,0 +1,7 @@
+INFO:discord.client:logging in using static token
+Initializing scraper...
+  Guild ID: 1431511744748191950
+  Output: scraped_training_data.json
+  Format: alpaca
+----------------------------------------
+❌ Error: Could not find guild with ID 1431511744748191950 after 30s
