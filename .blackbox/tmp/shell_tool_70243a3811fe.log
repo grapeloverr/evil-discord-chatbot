@@ -1,0 +1,134 @@
+🔍 Server Personality Analyzer
+========================================
+No channels found. Please enter channel IDs (comma-separated):
+> Fetching channel 1466685355775234131...
+  Got 1 messages total
+  Got 2 messages total
+  Got 3 messages total
+  Got 4 messages total
+  Got 5 messages total
+  Got 6 messages total
+  Got 7 messages total
+  Got 8 messages total
+  Got 9 messages total
+  Got 10 messages total
+  Got 11 messages total
+  Got 12 messages total
+  Got 13 messages total
+  Got 14 messages total
+  Got 15 messages total
+  Got 16 messages total
+  Got 17 messages total
+  Got 18 messages total
+  Got 19 messages total
+  Got 20 messages total
+  Got 21 messages total
+  Got 22 messages total
+  Got 23 messages total
+  Got 24 messages total
+  Got 25 messages total
+  Got 26 messages total
+  Got 27 messages total
+  Got 28 messages total
+  Got 29 messages total
+  Got 30 messages total
+  Got 31 messages total
+  Got 32 messages total
+  Got 33 messages total
+  Got 34 messages total
+  Got 35 messages total
+  Got 36 messages total
+  Got 37 messages total
+  Got 38 messages total
+  Got 39 messages total
+  Got 40 messages total
+  Got 41 messages total
+  Got 42 messages total
+  Got 43 messages total
+  Got 44 messages total
+  Got 45 messages total
+  Got 46 messages total
+  Got 47 messages total
+  Got 48 messages total
+  Got 49 messages total
+  Got 50 messages total
+  Got 51 messages total
+  Got 52 messages total
+  Got 53 messages total
+  Got 54 messages total
+  Got 55 messages total
+  Got 56 messages total
+  Got 57 messages total
+  Got 58 messages total
+  Got 59 messages total
+  Got 60 messages total
+  Got 61 messages total
+  Got 62 messages total
+  Got 63 messages total
+  Got 64 messages total
+  Got 65 messages total
+  Got 66 messages total
+  Got 67 messages total
+  Got 68 messages total
+  Got 69 messages total
+  Got 70 messages total
+  Got 71 messages total
+  Got 72 messages total
+  Got 73 messages total
+  Got 74 messages total
+  Got 75 messages total
+  Got 76 messages total
+  Got 77 messages total
+  Got 78 messages total
+  Got 79 messages total
+  Got 80 messages total
+  Got 81 messages total
+  Got 82 messages total
+  Got 83 messages total
+  Got 84 messages total
+  Got 85 messages total
+  Got 86 messages total
+  Got 87 messages total
+  Got 88 messages total
+  Got 89 messages total
+  Got 90 messages total
+  Got 91 messages total
+  Got 92 messages total
+
+Total messages collected: 92
+
+============================================================
+SERVER PERSONALITY ANALYSIS REPORT
+============================================================
+
+📊 Message Statistics:
+  Messages analyzed: 92
+  Avg message length: 21.4 chars
+
+💬 Style Analysis:
+  Formality: 0.96 (0=c casual, 1=formal)
+  Humor: 0.07
+  Emoji usage: 0.00
+  Laugh patterns: 0.02
+  Questions: 0.04
+
+📝 Top Words:
+  https com gif tenor view over jeff done hru hii lol youtu yay shit mrbeast
+
+🎭 Recommended Personality Traits:
+  confidence   ████████░░ 0.80
+  creativity   ███████░░░ 0.70
+  formality    ░░░░░░░░░░ 0.04
+  friendliness ████████░░ 0.80
+  helpfulness  ████████░░ 0.80
+  humor        ░░░░░░░░░░ 0.07
+  patience     ███████░░░ 0.70
+  verbosity    ██░░░░░░░░ 0.21
+
+============================================================
+✅ Saved profile to server_personality.json
+
+📝 Updating .env with recommended settings...
+✅ Updated .env with custom personality
+
+Restart your bot to apply the new personality!

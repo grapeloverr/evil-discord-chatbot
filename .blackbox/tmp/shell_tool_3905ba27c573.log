@@ -1,0 +1,3 @@
+root        1026  0.0  0.0 161376 28540 ?        Ssl  00:00   0:00 /usr/bin/python /usr/bin/firewalld --nofork --nopid
+root        1031  0.0  0.0 132640 36512 ?        Ssl  00:00   0:00 python3 /usr/bin/waydroid container start
+root        1033  0.0  0.0  42740 22784 ?        Ss   00:00   0:00 python3 /usr/bin/waydroid_magisk --ota

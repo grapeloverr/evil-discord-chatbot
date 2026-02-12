@@ -1,0 +1,4 @@
+ERROR:__main__:Another bot instance is already running (lock: /tmp/vrilgass_bot.lock)
+PyNaCl (voice encryption) available
+Voice receive features enabled
+Voice features enabled (send and receive)

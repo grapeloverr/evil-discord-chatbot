@@ -1,0 +1,3 @@
+"""
+Bot plugins and extensions
+"""
